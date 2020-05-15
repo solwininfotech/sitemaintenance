@@ -1,0 +1,22 @@
+{
+    "name": "solwin/sitemaintenance",
+    "description": "This extension will allow the administration to on or off the Maintenance mode for the Magento 2 website.",
+    "type": "magento2-module",
+    "version": "1.0.9",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\SiteMaintenance\\": ""
+        }
+    }
+}
